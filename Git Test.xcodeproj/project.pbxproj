@@ -21,6 +21,7 @@
 		D1AFD9A3196445700005F918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AFD985196445700005F918 /* UIKit.framework */; };
 		D1AFD9AB196445700005F918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1AFD9A9196445700005F918 /* InfoPlist.strings */; };
 		D1AFD9AD196445700005F918 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFD9AC196445700005F918 /* Git_TestTests.m */; };
+		D1AFD9B819644B090005F918 /* DWZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AFD9B719644B090005F918 /* DWZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D1AFD9A8196445700005F918 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		D1AFD9AA196445700005F918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1AFD9AC196445700005F918 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		D1AFD9B619644B090005F918 /* DWZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWZTest.h; sourceTree = "<group>"; };
+		D1AFD9B719644B090005F918 /* DWZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWZTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				D1AFD993196445700005F918 /* Main.storyboard */,
 				D1AFD996196445700005F918 /* DWZViewController.h */,
 				D1AFD997196445700005F918 /* DWZViewController.m */,
+				D1AFD9B619644B090005F918 /* DWZTest.h */,
+				D1AFD9B719644B090005F918 /* DWZTest.m */,
 				D1AFD999196445700005F918 /* Images.xcassets */,
 				D1AFD988196445700005F918 /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1AFD998196445700005F918 /* DWZViewController.m in Sources */,
+				D1AFD9B819644B090005F918 /* DWZTest.m in Sources */,
 				D1AFD992196445700005F918 /* DWZAppDelegate.m in Sources */,
 				D1AFD98E196445700005F918 /* main.m in Sources */,
 			);
